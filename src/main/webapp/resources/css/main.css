@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+body{
+
+}
+.header{width:  100%; height: 40px; border: solid 1px; float:left;background: #555;}
+.language{float: left; margin-top: 10px;}
+.language img{float: left; margin-right: 10px}
+.social{float:left; margin-top: 10px}
+.social{float:left; margin-left: 40px; margin-right: 15px}
+.aut p { float: left; }
+.aut a { float: right; color: #fff; margin-top: 10px; margin-right: 60px; }
+.aut a:hover {text-decoration: none;}
+
+.search{width:  100%; height: 150px; float:left;}
+.button{color: #838383; font-size: 14px; text-align:center; border-radius: 5px; border: 1px solid #e2e2e2; float: left; padding: 12px 0px 12px 38px; width: 100px; margin-top: 100px;background-color: #06beec}
+.search-text{color: #838383; font-size: 14px; border-radius: 5px; border: 1px solid #e2e2e2; float: left; padding: 12px 0px 12px 38px; width: 1000px; margin-top: 100px}
+.search-text:focus{border: 1px solid #30b0e1; box-shadow: 0px 0px 5px 0px #abdfed;}
+.select_search{color: #838383; font-size: 14px; border-radius: 5px; border: 1px solid #e2e2e2; float: left; padding: 12px 0px 12px 38px; width: 200px; margin-top: 100px}
+.select{color: #838383; font-size: 14px; border-radius: 5px; border: 1px solid #e2e2e2;}
+.letters{width:  100%; height: 40px;  float:left;}
+.letters a{color: #838383;font-size: 24px; padding: 12px}
+.letters a.selected_letter{color:red}
+.leftMenu{width:  20%;height: 400px;float:left;}
+.leftMenu a{color: #838383;font-size: 24px; padding: 12px; font-family:serif; text-decoration: none;text-align: center; padding-left: 30px}
+.bookNumber{color: #838383;font-size: 24px; font-family:serif; text-decoration:}
+
+.content{width:  80%;float:left;}
+
+.item{height:100%; width: 450px; padding-top: 18px; padding-bottom: 18px; border: 1px solid #e5e5e5; border-radius: 5px; margin-top: 20px; float: left;}
+.info{float:right;width: 200px;border: 2px}
+.item .info span { color: #000; border-bottom: 1px solid #000; margin-top: 13px; margin-bottom: 13px; display: inline-block; }
+.item .info p {color: #666; margin-bottom: 8px;}
+.item .info p a {color: #666;}
+.item .info p a:hover {text-decoration: none; }
+
+
+.image{
+	float:left;
+
+
+
+.books_list .ui-widget-content{
+    border:0;
+}
+.books_list .ui-state-active{
+    background: #d5574b;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    box-shadow: inset -1px 2px 5px 0px #8a2c27;
+}
+
+.books_list .ui-paginator-page{
+    padding: 8px 10px 8px 10px;
+
+}
+
+.middle{
+	width:  100%;
+height:100%;
+	float:left;
+}
+
+
+.footer{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    margin-bottom:0px;
+    background: #555;
+    color: #aeaeae;
+    font-size: 14px;
+    float:left;
+}
+
+
+
+
+
+

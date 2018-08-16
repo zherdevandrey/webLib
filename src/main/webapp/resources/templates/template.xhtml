@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      >
+ 	  
+        <h:head>
+            <title>teamplate</title>
+ 			<h:outputStylesheet library="css" name="main.css"  />
+        </h:head>
+        
+        <h:body>    	
+
+ 	        <div class="header">
+	        	<ui:insert name="header">
+		        	<ui:include src="/resources/templates/header.xhtml"/>
+		        </ui:insert>
+	        </div>       	
+	        
+	        <div class="search">
+	        	<ui:insert name="header">
+		        	<ui:include src="/resources/templates/search.xhtml"/>
+		        </ui:insert>
+	        </div>  
+
+	        <div class="letters">
+	        	<ui:insert name="header">
+		        	<ui:include src="/resources/templates/letters.xhtml"/>
+		        </ui:insert>
+	        </div>  
+	        
+	        
+	        	        
+	        <div class="wrap">
+	        
+	        		
+	        		<div class="middle">
+	        			<div class="leftMenu">
+		        			<ui:insert name="leftMenu">
+			        			<ui:include src="/resources/templates/leftMenu.xhtml"/>
+			        		</ui:insert>
+			        	</div>
+	        			<div class="content">
+		        			<ui:insert name="content">
+			        			<ui:include src="/resources/templates/content.xhtml"/>
+			        		</ui:insert>
+			        	</div>			        	
+			        	
+	        		</div>
+	        		
+	        		<div class="footer">
+	        			<ui:insert name="footer">
+		        			<ui:include src="/resources/templates/footer.xhtml"/>
+		        		</ui:insert>
+	        		</div>
+	        		
+        		</div>
+
+        </h:body>
+        
+</html>
